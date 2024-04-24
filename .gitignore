@@ -163,3 +163,5 @@ cython_debug/
 # Ignode data and saved models
 saved models/*
 Data/*
+
+Not_used/
