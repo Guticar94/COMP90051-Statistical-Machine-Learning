@@ -162,6 +162,6 @@ cython_debug/
 .DS_Store
 # Ignode data and saved models
 saved models/*
-Data/*
+Data/Predictions/
 
 Not_used/
