@@ -12,6 +12,7 @@
 
 ## Repository Structure
 The repository is organized in 3 main folders:  
+```  
 ├── /Data -> Contains the input files to train and test the models  
 ├── /Documents -> Contains the meeting minutes and the final report of the project  
 ├── /Models -> Contains the final models used within the project.   
@@ -21,7 +22,7 @@ The repository is organized in 3 main folders:
 │   ├── /Weighted LR.ipynb           -> Weighted Logistic Regression applied to the BoW contextual representation.  
 │   ├── /SVM.ipynb                   -> Linear Weighted Support Vector Machine applied to the BoW contextual representation.   
 │   ├── /Ensemble.ipynb              -> Ensemble model with majority voting.  
-  
+```  
 
 ## Contributors
 
