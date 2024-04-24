@@ -1,5 +1,5 @@
 # COMP90051 Statistical Machine Learning 
-# Project 1 - Group 14
+## Project 1 - Group 14
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-blue.svg?style=flat-round)](#contributors-)
