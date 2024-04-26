@@ -1,14 +1,31 @@
 # COMP90051 Statistical Machine Learning 
 ## Project 1 - Group 14
+This repo has all the docs for our project. We were tasked with building a model to classify text data from two different domains, one of which had unbalanced data labels. We tried different NLP methods for feature extraction and contextual representation, and tested different method of ML and DL on them.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-blue.svg?style=flat-round)](#contributors-)
 
 ## Table of Contents
 
-  1. [Repository Structure](#repository-structure)
-  2. [Contributors](#contributors)
+  1. [Results obtained](#results-obtained)
+  2. [Repository Structure](#repository-structure)
+  3. [Contributors](#contributors)
 
+## Results Obtained
+The best obtained model positioned us in the 2nd position in the public leaderboard at the time of the close of the competition. The main reason for such a result is related to the contextual representation of the features, where the combination of the CountVectorizer with the n-grams of each text retains the most important features of each text class making them easily differentiable. Bellow there is a detail of the obtained results:
+
+| Model                        | Accuracy | F1 Score | Roc AUC | Kaggle Score |
+|------------------------------|----------|----------|---------|--------------|
+| Weighted Logistic Regression |   0.933  |   0.933  |  0.933  |     0.925    |
+| Support Vector Machine       |   0.933  |   0.933  |  0.933  |     0.926    |
+| Ridge Classifier             |   0.928  |   0.929  |  0.897  |     0.922    |
+| BoW + FFNN                   |   0.928  |   0.929  |  0.928  |     0.914    |
+| BiLSTM + DANN                |   0.730  |   0.674  |  0.730  |     0.730    |
+| **Ensemble (Top 3 models)**  |   **-**  |   **-**  |  **-**  |   **0.934**  |
+
+On the private score publication the obtained score increased to 0.941:
+
+<center><img src=/Documents/Competition_results.png></center>
 
 ## Repository Structure
 The repository is organized in 3 main folders:  
